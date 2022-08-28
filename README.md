@@ -8,6 +8,8 @@
 vamshi12345678/vamshi12345678 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+//start
 #include<iostream>
 #include<queue>
 using namespace std;
@@ -120,3 +122,32 @@ int data;
 
      }
      }
+
+
+
+
+
+
+ }
+ 
+
+
+int main(){
+
+node *root=NULL;
+root=input(root);
+
+cout<<"level oreder"<<endl;
+print(root);
+
+
+cout<<" in preorder order";
+preorder(root);
+cout<<" inorder"<<endl;
+inorder(root);
+cout<<"postorder"<<endl;
+postorder(root);
+
+
+
+}
